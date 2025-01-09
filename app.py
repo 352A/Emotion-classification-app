@@ -10,7 +10,7 @@ from PIL import Image
 model = load_model('models/model.keras')
 
 # Class labels for FER-2013 dataset
-class_labels = ['Anger', 'Disgust', 'Fear', 'Sadness', 'Happiness', 'Surprise', 'Neutral']
+class_labels = ['Surprise', 'Disgust', 'Fear', 'Happiness', 'Sadness' , 'Anger', 'Neutral']
 
 # Function to preprocess the image
 def preprocess_image(img):
